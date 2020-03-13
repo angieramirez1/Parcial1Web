@@ -1,0 +1,15 @@
+:root{
+    --color1: rgba(0,0,0,1);
+    --color2: rgba(255,0,0,1);
+    --color3: rgb(0,0,255,1);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 200vh;
+    width: 500vh;
+    background: var(--color1);
+    transition: all 350ms ease-out;
+}
